@@ -27,6 +27,6 @@ function currentLine (katzDeliLine) {
     }
     message = ("The line is currently: "+message);
   } 
-   return (" "+message+(i+1)+". "+katzDeliLine[i]);
+   return (message+(i+1)+". "+katzDeliLine[i]);
   }
 }
